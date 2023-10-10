@@ -1,0 +1,16 @@
+- dataset: chessboard_aruco
+  content:
+    dataset_path: ../dataset/chessboard_aruco
+    board_dim:
+    - 10
+    - 7
+    image_type: jpeg
+    calibration_path: ../calibration_files
+- dataset: chessboard_kaggle
+  content:
+    dataset_path: ../dataset/chessboard_kaggle
+    board_dim:
+    - 11
+    - 7
+    image_type: png
+    calibration_path: ../calibration_files
