@@ -14,3 +14,11 @@
     - 7
     image_type: png
     calibration_path: ../calibration_files
+- dataset: ipadChessBoard
+  content:
+    dataset_path: /home/guilherme/Documents/camera_calibration/dataset/ipadChessBoard
+    board_dim:
+    - 7
+    - 5
+    image_type: jpg
+    calibration_path: /home/guilherme/Documents/camera_calibration/dataset/ipadChessBoard
