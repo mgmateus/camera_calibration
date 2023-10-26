@@ -271,7 +271,8 @@ class Calibration:
 
         dst = dst[y:y+h, x:x+w]      
         if save:
-            full_name_image = image.split("/")[3]
+            full_name_image = image.split("/")[-1]
+            print(full_name_image)
             name, _type = full_name_image.split('.')
             image = image.replace(full_name_image, "")
             cv2.imwrite(image+'output/'+name+'_undistorted.'+_type, img)
